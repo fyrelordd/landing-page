@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .profile-pic {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    display: block;
+    margin: 0 auto; 
+}
+.skills{
+    width: 50%;
+    margin-left: 32%;
+    text-align: start;
+}
+
+
+        @media (max-width: 768px) {
+            section {
+                padding: 1rem;
+            }
+            .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+        }
+    </style>
+</body>
+</html>
+
+</head>
+<body>
+    <header>
+        <h1>Welcome!</h1>
+        <p>I'm Emeka, a programmer</p>
+    </header>
+    
+    <section id="hero">
+        <img src="https://media.tenor.com/Wv4GuSuR2JoAAAAM/iroh-blush.gif" alt="Uncle Iroh" class="profile-pic"/>
+        <h2>Hello</h2>
+        <p>I'm someone who recognizes that he doesn't know it all, and is always willing to learn. A fast learner too.</p>
+        <p>I'm a good team worker, and can also put in a decent solo effort.</p>
+    </section>
+    
+    <section id="skills">
+        
+        <h2>Skills</h2>
+        <div class="skills">
+        <h3 style="color: grey;">Soft Skills</h3>
+        <p>Good communication skills, adaptability, critical thinking, problem solving, and teamwork </p>
+   <br />
+        <h3 style="color: grey;">Technical Skills</h3>
+        <p>for now, my technical skills are html, css and bootstrap</p>
+        </div>
+   
+    </section>
+
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>click <a href="./first.html">Here</a> for my previous project</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Asides programming, I love to watch movies, read books (fictional), and draw!</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <button style="border-radius: 10%;"><a href="./contact info.html">Contact Me</a></button>
+    </section>
+    
+    <footer>
+        <p>&copy; fyrelordd. All rights reserved.</p>
+    </footer>
+</body>
+</html>
